@@ -9,10 +9,12 @@
  
  int main (void)
  {
-	 float testMetric;
-	 float testImperial;
-	 printf("This is to test metricToImperial.c");
-	 printf("Enter how many meters: ");
-	 scanf("%f", &testMetric);
-	 testImperial = convert(testMetric);
+	 float meters;
+	 float feet;
+	 printf("This is to test metersToFeet function \n");
+	 printf("Enter how many meters: \n");
+	 scanf("%f", &meters);
+	 feet = convertMetersToFeet(meters);
+	 printf("%f meter(s) = %f feet \n", meters, feet);
+	 printf("TEST COMPLETED FOR METERS TO FEET");
  }

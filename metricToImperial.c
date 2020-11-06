@@ -7,8 +7,8 @@
  
  #include <stdio.h>
  
- float convert(float metric)
+ float convertMetersToFeet(float meters)
  {
-	 float imperial;
-	 return imperial;
+	 float feet = meters * 3.28084;
+	 return feet;
  }
