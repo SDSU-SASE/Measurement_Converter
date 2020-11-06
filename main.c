@@ -13,7 +13,7 @@
 	 float feet;
 	 printf("This is to test metersToFeet function \n");
 	 printf("Enter how many meters: \n");
-	 scanf("%f", &meters);
+	 scanf_s("%f", &meters);
 	 feet = convertMetersToFeet(meters);
 	 printf("%f meter(s) = %f feet \n", meters, feet);
 	 printf("TEST COMPLETED FOR METERS TO FEET");
