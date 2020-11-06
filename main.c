@@ -9,8 +9,10 @@
  
  int main (void)
  {
-	 float testMeters;
+	 float testMetric;
+	 float testImperial;
 	 printf("This is to test metricToImperial.c");
 	 printf("Enter how many meters: ");
-	 scanf("%f", &testMeters);
+	 scanf("%f", &testMetric);
+	 testImperial = convert(testMetric);
  }
